@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import './String.extensions';
 import BottomTabBar from './src/components/BottomTabBar/BottomTabBar';
 import Home from './src/pages/Home/Home';
 import Login from './src/pages/Login';
